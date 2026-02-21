@@ -13,7 +13,7 @@ concurrency:
 jobs:
   editmode:
     name: Unity EditMode Tests
-    uses: MattStroman/.github/.github/workflows/unity-tests.yml@v1
+    uses: MattStroman/.github/.github/workflows/unity-tests.yml@1.0.0
     with:
       testMode: editmode
       projectPath: .
@@ -21,7 +21,7 @@ jobs:
 
   playmode:
     name: Unity PlayMode Tests
-    uses: MattStroman/.github/.github/workflows/unity-tests.yml@v1
+    uses: MattStroman/.github/.github/workflows/unity-tests.yml@1.0.0
     with:
       testMode: playmode
       projectPath: .
